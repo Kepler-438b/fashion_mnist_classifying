@@ -46,7 +46,7 @@ Multinomial NB cannot be combined with PCA or LLE, because both produce negative
 ## Repository structure
 
 ```
-├── fashion_mnist_classical_ml.ipynb   # full analysis, with outputs
+├── fashion_mnist.ipynb   # full analysis, with outputs
 ├── data/
 │   ├── train.csv                      # 2,400 labelled images (label 0 = trousers, 1 = dress)
 │   └── evaluate.csv                   # 9,600 unlabelled images
@@ -58,7 +58,7 @@ Multinomial NB cannot be combined with PCA or LLE, because both produce negative
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook fashion_mnist_classical_ml.ipynb
+jupyter notebook fashion_mnist.ipynb
 ```
 
 The whole notebook runs in about 3 minutes on a laptop. The last section saves predictions for the unlabelled images to `result.csv`.
