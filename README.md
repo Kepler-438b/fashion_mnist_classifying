@@ -69,8 +69,6 @@ Results were produced with scikit-learn 1.9.1. Other versions may give slightly 
 
 The images come from [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) by Zalando Research, released under the MIT License. This project uses a subset with two classes: trousers and dresses.
 
-## About
+## Tools
 
-Originally developed as coursework in machine learning at the Faculty of Information Technology, Czech Technical University in Prague. Restructured and documented as a standalone project.
-
-**Tools:** Python, scikit-learn, pandas, NumPy, Matplotlib, Jupyter
+Python, scikit-learn, pandas, NumPy, Matplotlib, Jupyter
